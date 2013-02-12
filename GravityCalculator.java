@@ -21,13 +21,15 @@ public class GravityCalculator {
 		double finalPositionmer = 0.5 * (gravitymer*(fallingTime*fallingTime))+ initialVelocity *(fallingTime) + initialPosition;
 		double finalPositionmar= 0.5 * (gravitymar*(fallingTime*fallingTime))+ initialVelocity *(fallingTime) + initialPosition;
 		double finalPositionvenu = 0.5 * (gravityvenu*(fallingTime*fallingTime))+ initialVelocity *(fallingTime) + initialPosition;
-		
+
 		System.out.println("The object's position after " + fallingTime +" seconds is " + finalPosition + " m. Eart");
 		System.out.println("The object's position after " + fallingTime +" seconds is " + finalPositionsol + " m. The Sun");
 		System.out.println("The object's position after " + fallingTime +" seconds is " + finalPositionlun + " m. The Moon");
 		System.out.println("The object's position after " + fallingTime +" seconds is " + finalPositionmer + " m. Mercury");
 		System.out.println("The object's position after " + fallingTime +" seconds is " + finalPositionmar + " m. Mars");
 		System.out.println("The object's position after " + fallingTime +" seconds is " + finalPositionvenu + " m. Venus");
+		System.out.println ("NAVISOUND");
 		}
+
 
 }
